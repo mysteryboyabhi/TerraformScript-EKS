@@ -1,7 +1,7 @@
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   #version = "2.47.0"
-  version = ">= 0.12.7 , < 0.14"
+  version = "2.64.0"
 
   name                 = "k8s-vpc"
   cidr                 = "172.16.0.0/16"
