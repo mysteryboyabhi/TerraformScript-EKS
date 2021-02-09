@@ -1,3 +1,3 @@
 locals {
-  cluster_name = "my-cluster1"
+  cluster_name = "my-cluster"
 }
